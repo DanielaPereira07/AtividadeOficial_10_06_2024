@@ -1,0 +1,46 @@
+    body{
+        background-color: #f200a9;
+    }
+   /* Título principal*/
+   h1
+   {
+     background-color: hsl(290, 50%, 50%);
+     color:#000000;
+     font-size: 40px;
+     font-weight: 100px;
+     font-family:'Times New Roman', Times, serif;
+     text-align: center;
+     }
+   /* Sub título*/  
+   h2
+   {
+     color:#000000;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 30px;
+     font-weight: 80px;
+     text-align: center;
+   }
+   /*IMAGEM*/
+   img{
+    display: block;
+    margin: 0 auto;
+    animation: FadeInFadeOut 1s linear infinite;
+    box-shadow: 10px 10px 90px #0038f2;
+     }
+  
+/*BATIMENTOS*/
+@keyframes FadeInFadeOut{
+   0%{
+    transform: scale(1);
+   }
+   50%{
+    transform: scale(1.2);
+   }
+   100%{
+    transform: scale(1);
+   }
+       }
+  
+    
+ 
+    
